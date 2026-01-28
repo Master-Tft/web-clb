@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html lang="vi">
 <head>
-    <meta charset="UTF-8">
     <title>THPT Chuyên Chu Văn An - Gia Lai</title>
     <style>
-        /* TỔNG THỂ */
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
             margin: 0; 
@@ -13,13 +10,12 @@
             line-height: 1.6;
         }
 
-        /* HEADER HIỆN ĐẠI */
         header { 
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
                         url('https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/479241011_1419050292842921_5991595252077004816_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHRmsIbnZQFX5Uya9QSUZ8MIvMB9Ay_UW4i8wH0DL9Rbi1fe6qYi3y8-yXeUdwWRPqOtj5IdRMddHsteItXvthK&_nc_ohc=bxbpInRAKcoQ7kNvwHCn22r&_nc_oc=Adnj9p6YvpEEV0ioxbldxx2cbg3rLKbGjY8NrbI7xdZve0qZ0Y54MR878GwG98RYHpboI1q6rwSy5lY28-OUAJoO&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=emPteoEGh2ja_D3G0wxwRg&oh=00_AfqDMqlRk6-4v9KAqA00X5jsIwu8oh2CG95U0rOv80P2-A&oe=697F326A');
             background-size: cover;
             background-position: center;
-            background-attachment: fixed; /* Hiệu ứng cuộn ảnh nền đứng yên */
+            background-attachment: fixed; 
             color: white; 
             text-align: center; 
             padding: 100px 20px;
@@ -27,7 +23,6 @@
         header h1 { font-size: 2.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); margin-bottom: 10px; }
         header p { font-size: 1.2rem; opacity: 0.9; }
 
-        /* THANH MENU */
         nav { 
             background: #073763; 
             text-align: center; 
@@ -49,7 +44,6 @@
 
         .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
 
-        /* HỆ THỐNG CHUYỂN TRANG CSS :TARGET */
         .page { 
             display: none; 
             background: white; 
@@ -64,14 +58,13 @@
         #trang-chu { display: block; } 
         :target ~ #trang-chu { display: none; }
 
-        /* CARD CLB ĐẸP MẮT */
         h2 { color: #073763; font-size: 1.8rem; margin-top: 0; border-left: 6px solid #e67e22; padding-left: 15px; }
         
         .the-clb { 
             border: none;
             margin: 25px 0; 
             border-radius: 15px; 
-            display: flex; /* Chuyển sang dạng nằm ngang */
+            display: flex;
             align-items: center;
             text-decoration: none; 
             color: #333; 
@@ -86,7 +79,6 @@
         .nội-dung-clb { padding: 30px; width: 60%; }
         .nội-dung-clb h3 { margin-top: 0; color: #0b5394; font-size: 1.4rem; }
 
-        /* TRANG CHI TIẾT CLB */
         .banner-clb { width: 100%; height: 350px; object-fit: cover; border-radius: 12px; margin-bottom: 25px; }
         .quay-lai { 
             display: inline-block; 
@@ -99,7 +91,7 @@
         }
         .quay-lai:hover { color: #e67e22; }
 
-        /* FORM ĐĂNG KÝ SANG TRỌNG */
+
         .form-dang-ky { background: #fdfdfd; padding: 30px; border-radius: 12px; border: 1px solid #edf2f7; }
         .form-dang-ky h3 { margin-top: 0; margin-bottom: 20px; color: #2d3436; }
         input, textarea { 
@@ -232,4 +224,5 @@
 </footer>
 
 </body>
+
 </html>
